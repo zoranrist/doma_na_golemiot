@@ -1,0 +1,62 @@
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: green;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+h1 .inside {
+  color: brown;
+}
+
+h1.inside {
+  color: aqua;
+}
+
+h1 .inside .double-inside {
+  color: grey;
+}
+
+/* a:hover {
+  font-weight: bold;
+} */
+
+a:active {
+  font-weight: bold;
+}
+
+input:required {
+  border: 2px solid;
+}
+
+/* h1.inside.double-inside {
+  color: aqua;
+} */
+
+#main a {
+  font-weight: bold;
+  color: deeppink;
+}
+
+.second {
+  color: red;
+}
+
+.first {
+  color: blue;
+}
+
+/* Komentar */
+#firstID {
+  color: yellow;
+}
+
+/* #secondID {
+  color: pink;
+} */
+
+/* Ctrl ? */
+/* 1:26 */
