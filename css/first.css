@@ -8,6 +8,22 @@ h1 {
   text-align: center;
 }
 
+#position-example {
+  position: absolute;
+  top: 118px;
+  left: 279px;
+}
+
+#position_example_fixed {
+  position: fixed;
+  top: 300px;
+  right: 500px;
+}
+
+#position_example_sticky {
+  position: sticky;
+  top: 135px;
+}
 h1 .inside {
   color: brown;
 }
