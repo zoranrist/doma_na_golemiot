@@ -1,4 +1,22 @@
-h1 {
+header {
+  width: 100%;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#first_section_inline_element {
+  position: fixed;
+  display: inline;
+  background-color: cornflowerblue;
+}
+
+/* #prva_sekcija {
+  background-color: blue;
+  width: 100%;
+  display: inline-block;
+} */
+/* h1 {
   text-align: center;
   font-size: 24px;
   color: green;
@@ -40,7 +58,7 @@ h1 .inside .double-inside {
   font-weight: bold;
 } */
 
-a:active {
+/* a:active {
   font-weight: bold;
 }
 
@@ -52,7 +70,7 @@ input:required {
   color: aqua;
 } */
 
-#main a {
+/* #main a {
   font-weight: bold;
   color: deeppink;
 }
@@ -66,13 +84,13 @@ input:required {
 }
 
 /* Komentar */
-#firstID {
+/* #firstID {
   color: yellow;
-}
+} */
 
 /* #secondID {
   color: pink;
 } */
 
 /* Ctrl ? */
-/* 1:26 */
+/* 1:26  */
