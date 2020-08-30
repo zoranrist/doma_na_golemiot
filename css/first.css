@@ -1,14 +1,106 @@
-header {
-  width: 100%;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+/* header {
+  background-color: cornflowerblue;
+} */
+/* #first_section_inline_element {
+  position: absolute;
+  background-color: cornflowerblue;
+} */
+
+/* .prva_lista {
+  position: relative;
+  overflow: auto;
+} */
+
+#body {
+  background: cornflowerblue;
 }
 
-#first_section_inline_element {
-  position: fixed;
-  display: inline;
-  background-color: cornflowerblue;
+#logo_button {
+  position: absolute;
+}
+
+#home_button {
+  position: absolute;
+  left: 800px;
+}
+
+#Cicero {
+  color: chocolate;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 50px;
+  left: 930px;
+}
+
+#Aboutus {
+  position: absolute;
+  width: 1200px;
+  left: 1050px;
+  top: 10px;
+}
+
+#Zokta {
+  color: chocolate;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 50px;
+  left: 1143px;
+}
+
+#gallery {
+  position: absolute;
+  left: 1290px;
+  top: 10px;
+}
+
+#Zzz {
+  color: chocolate;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 50px;
+  left: 1400px;
+}
+
+#contactus {
+  position: absolute;
+  left: 1500px;
+  top: 10px;
+}
+
+#zoranibus {
+  color: chocolate;
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+  top: 50px;
+  left: 1580px;
+}
+
+/* .prva_lista li {
+  float: left;
+} */
+
+#loremipsum {
+  position: absolute;
+  background: white;
+  top: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  box-sizing: border-box;
+  text-align: justify;
+  position: relative;
+  padding: 400px;
+  padding-top: 0px;
+  font-family: sans-serif;
 }
 
 /* #prva_sekcija {
