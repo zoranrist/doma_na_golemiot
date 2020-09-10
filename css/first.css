@@ -205,6 +205,35 @@ p {
   }
 }
 
+#Cicero {
+  text-align: center;
+  font-size: 100%;
+}
+
+.Lorem {
+  margin: auto;
+}
+
+div.Lorem {
+  height: auto;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+div.Lorem p {
+  margin: 0;
+}
+
+.ipsum {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.form-control {
+  display: inline-block;
+}
+
 /* #prva_sekcija {
   background-color: blue;
   width: 100%;
