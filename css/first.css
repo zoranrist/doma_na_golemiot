@@ -1,245 +1,4 @@
-/* header {
-  background-color: cornflowerblue;
-} */
-/* #first_section_inline_element {
-  position: absolute;
-  background-color: cornflowerblue;
-} */
-
-/* .prva_lista {
-  position: relative;
-  overflow: auto;
-} */
-
-#body {
-  background: cornflowerblue;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.header {
-  width: 100%;
-  height: 118px;
-  display: block;
-  background-color: cornflowerblue;
-}
-
-.inner_header {
-  width: 1800px;
-  height: 100%;
-  display: block;
-  margin: 0 auto;
-  background-color: cornflowerblue;
-}
-
-.logo_container {
-  height: 100%;
-  display: table;
-  float: left;
-}
-
-.logo_container h1 {
-  color: black;
-  height: 100%;
-  display: table-cell;
-  vertical-align: middle;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 32px;
-  font-weight: 200;
-}
-
-.logo_container h1 span {
-  font-weight: 800;
-}
-
-.navigation {
-  float: right;
-  height: 100%;
-}
-.navigation a {
-  height: 100%;
-  display: table;
-  float: left;
-  padding: 0px 20px;
-}
-
-.navigation a:last-child {
-  padding-right: 0;
-}
-
-.navigation a li {
-  display: table-cell;
-  vertical-align: middle;
-  height: 100%;
-  color: rebeccapurple;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-}
-
-/* 
-#logo_button {
-  position: absolute;
-}
-
-#home_button {
-  position: absolute;
-  left: 800px;
-}
-
-#Cicero {
-  color: chocolate;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  top: 50px;
-  left: 930px;
-}
-
-#Aboutus {
-  position: absolute;
-  width: 1200px;
-  left: 1050px;
-  top: 10px;
-}
-
-#Zokta {
-  color: chocolate;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  top: 50px;
-  left: 1143px;
-}
-
-#gallery {
-  position: absolute;
-  left: 1290px;
-  top: 10px;
-}
-
-#Zzz {
-  color: chocolate;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  top: 50px;
-  left: 1400px;
-}
-
-#contactus {
-  position: absolute;
-  left: 1500px;
-  top: 10px;
-}
-
-#zoranibus {
-  color: chocolate;
-  position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 25px;
-  top: 50px;
-  left: 1580px;
-} */
-
-/* .prva_lista li {
-  float: left;
-} */
-
-#loremipsum {
-  position: absolute;
-  background: white;
-  top: 100px;
-}
-
 h1 {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-p {
-  box-sizing: border-box;
-  text-align: justify;
-  position: relative;
-  padding: 100px;
-  padding-top: 0px;
-  font-family: sans-serif;
-}
-
-.container_body {
-  padding-top: 250px;
-  width: 100%;
-  height: auto;
-  background: pink;
-  /* add flexbox style */
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-flow: wrap;
-}
-
-.box {
-  width: 20%;
-  height: 300px;
-  background: yellow;
-  margin: 20px;
-  box-sizing: border-box;
-  font-size: 50px;
-}
-
-/* add responive media quaries */
-
-@media screen and (max-width: 1200px) {
-  .box {
-    width: 40%;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .box {
-    width: 90%;
-  }
-}
-
-#Cicero {
-  text-align: center;
-  font-size: 100%;
-}
-
-.Lorem {
-  margin: auto;
-}
-
-div.Lorem {
-  height: auto;
-  display: flex;
-
-  align-items: center;
-  justify-content: center;
-}
-div.Lorem p {
-  margin: 0;
-}
-
-.ipsum {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
-.form-control {
-  display: inline-block;
-}
-
-/* #prva_sekcija {
-  background-color: blue;
-  width: 100%;
-  display: inline-block;
-} */
-/* h1 {
   text-align: center;
   font-size: 24px;
   color: green;
@@ -247,24 +6,15 @@ div.Lorem p {
   font-style: italic;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
+  width: 900px center;
+  padding: 20px;
+  border: 5px solid black;
+  margin: 10px;
+  position: relative;
 }
 
-#position-example {
-  position: absolute;
-  top: 118px;
-  left: 279px;
-}
+/* block-level i inline element */
 
-#position_example_fixed {
-  position: fixed;
-  top: 300px;
-  right: 500px;
-}
-
-#position_example_sticky {
-  position: sticky;
-  top: 135px;
-}
 h1 .inside {
   color: brown;
 }
@@ -281,7 +31,7 @@ h1 .inside .double-inside {
   font-weight: bold;
 } */
 
-/* a:active {
+a:active {
   font-weight: bold;
 }
 
@@ -293,7 +43,7 @@ input:required {
   color: aqua;
 } */
 
-/* #main a {
+#main a {
   font-weight: bold;
   color: deeppink;
 }
@@ -307,13 +57,13 @@ input:required {
 }
 
 /* Komentar */
-/* #firstID {
+#firstID {
   color: yellow;
-} */
+}
 
 /* #secondID {
   color: pink;
 } */
 
 /* Ctrl ? */
-/* 1:26  */
+/* 1:26 */
