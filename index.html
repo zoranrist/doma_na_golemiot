@@ -16,122 +16,45 @@
     <!-- Place favicon.ico in the root directory -->
 
     <link rel="stylesheet" href="css/normalize.css" />
-    <!-- <link rel="stylesheet" href="./css/bootstrap.css" /> -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="./css/first.css" />
+    <link rel="stylesheet" href="css/calculator.css" />
 
     <meta name="theme-color" content="#fafafa" />
   </head>
 
   <body>
     <!-- Add your site or application content here -->
-    <header>
-      <table border="1">
-        <tr>
-          <th>Year</th>
-          <th>History</th>
-        </tr>
-        <tr>
-          <td>2005</td>
-          <td>W3C cafe opens first store in Boston</td>
-        </tr>
-        <tr>
-          <td>2007</td>
-          <td>W3C cafe opens first stores outside of USA</td>
-        </tr>
-        <tr>
-          <td>2010</td>
-          <td>W3C cafe opens online atores</td>
-        </tr>
-      </table>
-      <div>Prva sekcija</div>
-      <div>Vtora sekcija</div>
-      <ul>
-        <li>prv</li>
-      </ul>
-      <ul>
-        <li>vtor</li>
-      </ul>
-      <ol>
-        <li>tret</li>
-      </ol>
-      <ol>
-        <li>chetvrt</li>
-      </ol>
-      <h1></h1>
-      <!-- <h1
-        class="first second inside double-inside"
-        id="firstID"
-        style="color: magenta"
-      >
-        Zoran Ristovski
-        <span class="inside"
-          >2020<strong class="double-inside">July</strong></span
-        >
-      </h1> -->
-      <div class="container">
-        <div class="row">
-          <p class="col=6">web developer</p>
-          <p class="col=6">web developer 2</p>
-          <p>web developer</p>
-        </div>
-      </div>
-      <h2>Jas sum pomal</h2>
-      <!-- Eve i za html eden komentar e takva e sintaksata na komentiranje -->
-      <h3>i pomal i pomal</h3>
-      <div style="width: 100px; display: inline-block; padding: 100px">
-        Some block element
-      </div>
-      <span style="padding: 30px">Some inline element</span>
-      <span>Second inline element</span>
-      <span style="display: block">Second inline element</span>
-      <!-- 1:09 na 19.08.2020 inline - block -->
-      <!-- 1:19 na 19.08.2020 static (default), relative, absolute, fixed, sticky -->
-    </header>
-    <main id="main" style="text-align: center">
-      <a href="https://twitter.com/zoranrist" title="Mojot twitter"
-        ><p>tuka klikni i kje vlezesh vo mojot profil</p></a
-      >
-      <img
-        src="./img/austin-new-years.png"
-        alt="Avatar"
-        title="Eve ja mojata slika"
-        width="50%"
-        height="50%"
-      />
-    </main>
-    <a href="/second.html">Go to second page</a>
-    <footer style="text-align: center">
-      <div>
-        <h2>My social networks</h2>
-        <ul>
-          <li>Facebook</li>
-          <li>
-            Instagram
-            <a
-              href="https://www.instagram.com/zox0rist/?hl=en"
-              title="mojot Instagram"
-              >Click here!</a
-            >
-          </li>
-        </ul>
-      </div>
-      <span>Zoran Ristovski 2020</span>
-    </footer>
+    <main>
+      <div id="calculator" class="calculator">
+        <button id="clear" class="clear">C</button>
 
-    <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div id="viewer" class="viewer">0</div>
+
+        <button class="num" data-num="7">7</button>
+        <button class="num" data-num="8">8</button>
+        <button class="num" data-num="9">9</button>
+        <button class="op" data-op="plus">+</button>
+
+        <button class="num" data-num="4">4</button>
+        <button class="num" data-num="5">5</button>
+        <button class="num" data-num="6">6</button>
+        <button class="op" data-op="minus">-</button>
+
+        <button class="num" data-num="1">1</button>
+        <button class="num" data-num="2">2</button>
+        <button class="num" data-num="3">3</button>
+        <button class="op" data-op="times">*</button>
+
+        <button class="num" data-num="0">0</button>
+        <button class="num" data-num=".">.</button>
+        <button id="equals" class="equals">=</button>
+        <button class="op" data-op="divided by">/</button>
+      </div>
+    </main>
     <script src="js/vendor/modernizr-3.11.2.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="./js/hello.js"></script>
-    <script src="./js/references.js"></script>
-    <script src="./js/conditionals.js"></script>
-    <script src="./js/loops.js"></script>
-    <script src="./js/functions.js"></script>
+    <script src="js/calculator.js"></script>
 
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
